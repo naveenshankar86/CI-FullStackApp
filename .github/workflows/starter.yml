@@ -19,7 +19,7 @@ jobs:
 
     strategy:
       matrix: 
-        NODE_VERSION: [16.x, 18.x]
+        NODE_VERSION: [24.x]
 
     steps:
       # Check out the code from the repository.
