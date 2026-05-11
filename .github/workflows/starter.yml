@@ -30,7 +30,7 @@ jobs:
           node-version: ${{matrix.NODE_VERSION}}
 
       # Install the dependencies.
-      - run: cd backend && npm ci
+      - run: cd backend && npm install
 
       # Run the tests.
       - run: cd backend && npm test
